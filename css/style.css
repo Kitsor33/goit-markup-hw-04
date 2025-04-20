@@ -74,7 +74,9 @@ body {
 .header-navigation:focus {
     color: #404bbf;
   }
-
+.header-navigation.current {
+    color: #404bbf;
+}
 .header-navigation.current::after {
     content: '';
     width: 100%;
