@@ -79,7 +79,7 @@ body {
     color: #404bbf;
 }
 
-.header-navigation::after {
+.header-navigation.current::after {
     content: '';
     position: absolute;
     left: 0;
@@ -88,20 +88,10 @@ body {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-    transform: scaleX(0);
+  
 }
 
-.header-navigation.current::after,
-.header-navigation:hover::after,
-.header-navigation:focus::after {
-    transform: scaleX(1);
-}
-.header-navigation-active {
-    color: #404BBF !important;
-}
-.header-navigation-active {
-    color: #404BBF !important;
-}
+
 
 
 .header-contacts{
